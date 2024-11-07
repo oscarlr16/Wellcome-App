@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aseguramos que html y body ocupen toda la altura */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Opcional: remover el scroll si no lo necesitas */
+body {
+  overflow: hidden;
+}
